@@ -10,13 +10,14 @@ int main(void)
     {
         n = get_int("Height: ");
     }
+// Valid heights: [0,23]
     while
     (n < 0 || n > 23);
 
     for (int i = 0; i < n; i++)
     {
-
-        for (int s = 0; s < (n - i - 1); s++)
+//printf a blank space
+        for (int s = 0; s < (n - i); s++)
         {
             printf(" ");
         }
@@ -69,8 +70,7 @@ int main(void)
 //prompt and validate user input
 //draw the half pyramid
 
-// Valid heights: [0,23]
-// invalid heights: less than 0, more than 23
+
 
 // get_int
 // SC50 Library function
