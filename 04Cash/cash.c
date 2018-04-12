@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include <math.h>
 
-int main(void)
+int main(void) // Jackie - Everything works good.
 
 
 //prompt user for an amount of change
@@ -28,6 +28,7 @@ int main(void)
 //round
 
     int cents = round(dollars * 100);
+// Jackie - you could make the int cents a local variable, and write cents = round(dollars * 100);
 
     while (cents >= 25)
     {

@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void)
+int main(void) // Jackie - works good.
 
 //validate user input//
 {
-    int n;
+    int n; // Jackie -  instead of n, give it a representation, like int height
     do
     {
         n = get_int("Height: ");
@@ -14,15 +14,15 @@ int main(void)
     while
     (n < 0 || n > 23);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) // Jackie -  give i a representation
     {
 //printf a blank space
-        for (int s = 0; s < (n - i); s++)
+        for (int s = 0; s < (n - i); s++) // Jackie - int s can be int space
         {
             printf(" ");
         }
 
-        for (int h = 0; h < (i + 2); h++)
+        for (int h = 0; h < (i + 2); h++) // Jackie - int h can be int hash, it helps when reading the code
         {
             printf("#");
         }
