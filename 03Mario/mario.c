@@ -30,8 +30,6 @@ int main(void)
     }
 }
 
-
-
 //       if (i + s < (n - 1))
 //       printf(" ");
 //     }
