@@ -17,7 +17,7 @@ int main(void)
     for (int i = 0; i < n; i++)
     {
 //printf a blank space
-        for (int s = 0; s < (n - i); s++)
+        for (int s = 1; s < (n - i); s++)
         {
             printf(" ");
         }
