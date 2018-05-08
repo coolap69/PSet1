@@ -4,7 +4,6 @@
 
 int main(void)
 
-
 //prompt user for an amount of change
 //the amount must make sense
 //what values are accepted?
